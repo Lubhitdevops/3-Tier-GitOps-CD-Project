@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: adijaiswal/frontend:206761c9d9c185401add4dbba75d6a91534376c9
+          image: lubhitdocker/actions-frontend:206761c9d9c185401add4dbba75d6a91534376c9
           ports:
             - containerPort: 80
 ---
