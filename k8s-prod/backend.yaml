@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: lubhitdocker/actions-backend:206761c9d9c185401add4dbba75d6a91534376c9
+          image: adijaiswal/backend:eb7afec59351a303bc6f16740b466e8cbfac2d86
           ports:
             - containerPort: 5000
           env:
